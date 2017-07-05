@@ -109,6 +109,10 @@ Utilizes a data bag called `users` to generate OpenVPN keys for each user.
 #### `openvpn::easy_rsa`
 Installs the easy-rsa package (a CLI utility to build and manage a PKI CA).
 
+Installation
+-----
+Add `cookbook 'openvpn', git: 'https://github.com/sous-chefs/openvpn'` to your Berksfile.
+
 Usage
 -----
 Create a role for the OpenVPN server. See above for attributes that can be entered here.
